@@ -24,6 +24,6 @@ class Index extends BaseController
     {
         event('UserLogin','32312weqw');
 
-        return "87687iu"  ;
+        return "87687iu";
     }
 }
