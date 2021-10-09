@@ -10,10 +10,14 @@ class Check
      *
      * @param \think\Request $request
      * @param \Closure       $next
-     * @return Response
+     * @return void
      */
     public function handle($request, \Closure $next)
     {
-        //
+        if ($request->param('name') == 'lili') {
+            return redirect((string) url('index/hello',['name' => 'think']));
+        }
+
+        return $next($request);
     }
 }

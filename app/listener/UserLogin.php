@@ -1,10 +1,10 @@
 <?php
-declare (strict_types = 1);
 
 namespace app\listener;
-
+use think\facade\Log;
 class UserLogin
 {
+
     /**
      * 事件监听处理
      *
@@ -12,6 +12,6 @@ class UserLogin
      */
     public function handle($event)
     {
-        //
+        print_r($event);
     }
 }

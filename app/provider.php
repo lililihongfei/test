@@ -1,6 +1,6 @@
 <?php
-use app\ExceptionHandle;
-use app\Request;
+use app\provider\ExceptionHandle;
+use app\provider\Request;
 
 // 容器Provider定义文件
 return [

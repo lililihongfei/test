@@ -17,6 +17,7 @@ class AppService extends Service
 
     public function boot()
     {
+        $this->app->debug(true);
         // 服务启动
     }
 }
