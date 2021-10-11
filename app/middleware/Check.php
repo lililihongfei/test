@@ -14,6 +14,7 @@ class Check
      */
     public function handle($request, \Closure $next)
     {
+        echo 124341231231212312;
         if ($request->param('name') == 'lili') {
             return redirect((string) url('index/hello',['name' => 'think']));
         }
