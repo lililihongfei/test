@@ -18,6 +18,10 @@ class AppService extends Service
     public function boot()
     {
         $this->app->debug(true);
+        \think\facade\Db::event('before_select', function ($query) {
+            echo 122312;
+            dd($query);
+        });
         // 服务启动
     }
 }

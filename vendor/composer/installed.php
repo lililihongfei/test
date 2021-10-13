@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '6.0.x-dev',
-        'version' => '6.0.9999999.9999999-dev',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b706e89936ac2aa7316fb94bb2e66c32028d62ba',
+        'reference' => '203257cf2868a777d9732692ecc29119b489c593',
         'name' => 'topthink/think',
         'dev' => true,
     ),
@@ -119,12 +119,12 @@
             'dev_requirement' => false,
         ),
         'topthink/think' => array(
-            'pretty_version' => '6.0.x-dev',
-            'version' => '6.0.9999999.9999999-dev',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b706e89936ac2aa7316fb94bb2e66c32028d62ba',
+            'reference' => '203257cf2868a777d9732692ecc29119b489c593',
             'dev_requirement' => false,
         ),
         'topthink/think-helper' => array(

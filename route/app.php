@@ -18,9 +18,9 @@ Route::pattern([
     'name' => '[\w|\W]+',
     'id'   => '\d+',
 ]);
-Route::resource('blog', 'Blog');
-Route::get('hello/:name', 'index/hello');
-Route::get('blog/:id','Blog/read');
+//Route::resource('blog', 'Blog');
+//Route::get('hello/:name', 'index/hello');
+//Route::get('blog/:id','Blog/read');
 //Route::miss(function() {
 //    return '404 Not Found!';
 //});
