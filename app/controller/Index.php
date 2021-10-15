@@ -66,8 +66,8 @@ class Index extends BaseController
     }
     public function testSql()
     {
-       $aa=$user = User::find(42);
-       dd($aa);
+       $user = User::find(42);
+        dump($user->append(['status_text'])->toArray());
         return 1212;
     }
 }

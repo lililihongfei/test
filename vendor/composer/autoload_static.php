@@ -46,7 +46,6 @@ class ComposerStaticInitf042656e9caf9565f5bd8c4e7930deb9
         ),
         'L' => 
         array (
-            'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\Cached\\' => 24,
             'League\\Flysystem\\' => 17,
         ),
@@ -67,9 +66,9 @@ class ComposerStaticInitf042656e9caf9565f5bd8c4e7930deb9
         ),
         'think\\' => 
         array (
-            0 => __DIR__ . '/..' . '/topthink/framework/src/think',
-            1 => __DIR__ . '/..' . '/topthink/think-helper/src',
-            2 => __DIR__ . '/..' . '/topthink/think-orm/src',
+            0 => __DIR__ . '/..' . '/topthink/think-helper/src',
+            1 => __DIR__ . '/..' . '/topthink/think-orm/src',
+            2 => __DIR__ . '/..' . '/topthink/framework/src/think',
         ),
         'app\\' => 
         array (
@@ -110,10 +109,6 @@ class ComposerStaticInitf042656e9caf9565f5bd8c4e7930deb9
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
-        ),
-        'League\\MimeTypeDetection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/mime-type-detection/src',
         ),
         'League\\Flysystem\\Cached\\' => 
         array (
