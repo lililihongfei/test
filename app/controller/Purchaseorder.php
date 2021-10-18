@@ -10,7 +10,7 @@ class Purchaseorder extends BaseController
 {
     public function testSql()
     {
-         $user = Purchaseorders::with('purchaseorderDetail')->select()->toArray();
+         $user = Purchaseorders::hasWhere('purchaseorderDetail',['sku'=>'AMJJ96502'])->where('Purchaseorders.id',1872924102)->select()->toArray();
 dd($user);
          return 1212;
     }
