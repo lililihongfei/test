@@ -10,7 +10,7 @@ define('HEARTBEAT_TIME', 20);
 
 class Worker extends Server
 {
-    protected $socket = 'http://0.0.0.0:2345';
+    protected $socket = 'http://127.0.0.1:2345';
     public function __construct()
     {
         parent::__construct();
@@ -30,8 +30,10 @@ class Worker extends Server
     {
         $this->worker->onMessage = function($connection, $data)
         {
-            dump($data);
-            $connection->send($data);
+            $aa=['qq'=>121,'wq'=>213];
+            $connection->send(json_encode($data));
+
+//            $connection->send('ewqwqeewqwq');
         };
     }
 

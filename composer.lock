@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "281b336882ad7c32f00de45a5cfa8aea",
+    "content-hash": "f4a3e109390fbb4d24bc1de237462ca6",
     "packages": [
         {
             "name": "league/flysystem",
@@ -662,6 +662,56 @@
                 "wiki": "http://doc.workerman.net/"
             },
             "time": "2020-08-24T03:49:23+00:00"
+        },
+        {
+            "name": "workerman/workerman-for-win",
+            "version": "v3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/workerman-for-win.git",
+                "reference": "cbaae3193e4567fd9cfc8099931c63d9b12174ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/workerman-for-win/zipball/cbaae3193e4567fd9cfc8099931c63d9b12174ee",
+                "reference": "cbaae3193e4567fd9cfc8099931c63d9b12174ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "support": {
+                "email": "walkor@workerman.net",
+                "forum": "http://wenda.workerman.net/",
+                "issues": "https://github.com/walkor/workerman/issues",
+                "source": "https://github.com/walkor/workerman",
+                "wiki": "http://doc3.workerman.net/index.html"
+            },
+            "time": "2017-08-28T10:05:00+00:00"
         }
     ],
     "packages-dev": [
